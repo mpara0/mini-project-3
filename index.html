@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <script>
+         function newFunction() {
+            document.getElementById("reset").reset();
+         }
+      </script>
+  <body>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="/script.js" defer></script>
+
+    <h1> <strong>Greeter </strong><span class="wave">👋</span></h1>
+
+    <p> Complete the following form to get a <em>customized</em> greeting!</p>
+
+    <form id = "newform">
+    <center><input class="name-input" placeholder="Your Name">
+    <br></br>
+    <input class="emoji-input" placeholder="Favorite Animal"></center>
+    <br></br>
+    <center>
+      <button class = "button">Submit
+      </button>
+    </center>
+    <center>
+    <button class = "reset">Reset
+      </button>
+      </center>
+     <h2 class="greet-name"></h2>
+      <h2 class="animal-emoji"></h2>
+    </form>
+
+  </body>
+</html>
